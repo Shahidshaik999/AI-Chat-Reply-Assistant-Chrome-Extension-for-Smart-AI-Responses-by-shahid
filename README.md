@@ -2,21 +2,6 @@
 
 A Chrome Extension that generates smart AI-powered reply suggestions for WhatsApp Web and LinkedIn messages using Groq's Llama 3.1 model.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Technologies Used](#technologies-used)
-- [Development Journey](#development-journey)
-- [Troubleshooting](#troubleshooting)
-- [Future Enhancements](#future-enhancements)
-
----
 
 ## 🎯 Overview
 
@@ -577,28 +562,7 @@ This extension is for educational and productivity purposes. Always review AI-ge
 
 ---
 
-## 📝 License
 
-MIT License - Feel free to use and modify!
-
----
-
-## 🙏 Acknowledgments
-
-- **Groq** - For providing ultra-fast AI inference
-- **Meta** - For the Llama 3.1 model
-- **FastAPI** - For the excellent Python framework
-- **Chrome Extensions** - For the powerful browser API
-
----
-
-## 📧 Support
-
-If you encounter issues:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review console logs (F12)
-3. Check backend logs
-4. Verify all dependencies are installed
 
 ---
 
