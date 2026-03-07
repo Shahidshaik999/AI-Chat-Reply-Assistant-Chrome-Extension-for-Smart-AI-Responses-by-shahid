@@ -256,9 +256,9 @@ const response = await fetch('http://localhost:8000/generate-reply', {
 ```
 ### Screenshot
 <img width="527" height="337" alt="image" src="https://github.com/user-attachments/assets/a70e0cb6-a86a-43c6-8a75-a4bc8ce0fbf4" />
-<img width="528" height="583" alt="image" src="https://github.com/user-attachments/assets/966a510c-4cd7-4654-87af-bcea57098563" />
 <img width="1202" height="611" alt="image" src="https://github.com/user-attachments/assets/477c19d6-b657-421f-a5cc-c1a594e63ea8" />
-<img width="528" height="583" alt="image" src="https://github.com/user-attachments/assets/9a7bb00a-dc7d-47a5-9f3a-e65f817ad3bf" />
+<img width="1187" height="612" alt="image" src="https://github.com/user-attachments/assets/9640101d-e850-4bdf-8d7d-0fb4b67b08dc" />
+
 
 
 
