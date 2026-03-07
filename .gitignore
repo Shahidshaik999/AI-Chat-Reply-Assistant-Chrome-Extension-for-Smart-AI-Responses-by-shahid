@@ -1,0 +1,66 @@
+# Environment variables (contains API keys - DO NOT COMMIT!)
+.env
+*.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Documentation files (optional - remove if you want to keep them)
+FIX_CACHE_ISSUE.txt
+LOAD_CHECKLIST.txt
+EXTENSION_FIXED_FINAL.txt
+FINAL_STATUS.txt
+EXTENSION_READY.txt
+TEST_EXTENSION.txt
+RELOAD_EXTENSION_NOW.txt
+
+# Test files
+test_extension.bat
+validate_extension.ps1
+verify_extension.bat

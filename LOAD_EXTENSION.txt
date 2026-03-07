@@ -1,0 +1,46 @@
+HOW TO LOAD THE CHROME EXTENSION
+=================================
+
+1. Open Google Chrome
+
+2. Go to: chrome://extensions/
+
+3. Enable "Developer mode" (toggle in top-right corner)
+
+4. Click "Load unpacked" button
+
+5. Navigate to and select this folder:
+   ai-chat-assistant/frontend-extension
+
+6. Click "Select Folder"
+
+7. The extension should now appear in your extensions list!
+
+TROUBLESHOOTING
+===============
+
+If you see "Manifest file is missing or unreadable":
+- Make sure you selected the "frontend-extension" folder (not the parent folder)
+- The folder path should be: .../ai-chat-assistant/frontend-extension
+
+If you see icon warnings:
+- These are just warnings, the extension will still work
+- Icons are optional for testing
+
+TESTING THE EXTENSION
+=====================
+
+1. After loading, go to: https://web.whatsapp.com
+2. Open browser console (F12)
+3. You should see: "AI Chat Assistant initialized"
+4. Send yourself a test message
+5. AI suggestions should appear in bottom-right corner!
+
+BACKEND MUST BE RUNNING
+========================
+
+Make sure your backend server is running:
+- Open terminal in: ai-chat-assistant/backend-api
+- Run: .\venv\Scripts\activate
+- Run: python main.py
+- Server should be at: http://localhost:8000
