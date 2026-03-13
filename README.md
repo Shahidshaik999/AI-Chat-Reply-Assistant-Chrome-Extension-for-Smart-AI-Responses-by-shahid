@@ -1,9 +1,9 @@
-# 🤖 AI Chat Reply Assistant
+#  AI Chat Reply Assistant
 
 A Chrome Extension that generates smart AI-powered reply suggestions for WhatsApp Web and LinkedIn messages using Groq's Llama 3.1 model.
 
 
-## 🎯 Overview
+##  Overview
 
 This project is a Chrome Extension that helps users communicate better by providing AI-generated reply suggestions for chat messages on WhatsApp Web and LinkedIn. It uses a FastAPI backend connected to Groq's Llama 3.1-8b-instant model to generate contextually appropriate responses.
 
@@ -11,7 +11,7 @@ This project is a Chrome Extension that helps users communicate better by provid
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ **Manual Activation** - Click extension icon to analyze current chat
 - ✅ **AI-Powered Suggestions** - Generates 3 smart reply options
@@ -23,7 +23,7 @@ This project is a Chrome Extension that helps users communicate better by provid
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -88,7 +88,7 @@ This project is a Chrome Extension that helps users communicate better by provid
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-chat-assistant/
@@ -115,7 +115,7 @@ ai-chat-assistant/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ The backend will start at `http://localhost:8000`
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### How to Use
 
@@ -207,7 +207,7 @@ The backend will start at `http://localhost:8000`
 
 ---
 
-## 🔧 How It Works
+##  How It Works
 
 ### 1. Extension Icon Click
 
@@ -336,7 +336,7 @@ inputBox.dispatchEvent(new Event('input', { bubbles: true }));
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend (Chrome Extension)
 
@@ -366,7 +366,7 @@ inputBox.dispatchEvent(new Event('input', { bubbles: true }));
 
 ---
 
-## 📚 Development Journey
+##  Development Journey
 
 ### Phase 1: Initial Setup
 - Created project structure
@@ -419,7 +419,7 @@ inputBox.dispatchEvent(new Event('input', { bubbles: true }));
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend Issues
 
@@ -467,7 +467,7 @@ netstat -ano | findstr :8000
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 
@@ -511,7 +511,7 @@ netstat -ano | findstr :8000
 
 ---
 
-## 📄 API Documentation
+## API Documentation
 
 ### POST /generate-reply
 
@@ -554,7 +554,7 @@ Check if backend is running.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
@@ -564,7 +564,7 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This extension is for educational and productivity purposes. Always review AI-generated suggestions before sending. The extension does not store your messages - they are only sent to the AI service for generating suggestions.
 
