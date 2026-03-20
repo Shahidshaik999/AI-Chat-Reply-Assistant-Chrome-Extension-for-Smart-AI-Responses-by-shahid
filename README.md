@@ -574,6 +574,3 @@ This extension is for educational and productivity purposes. Always review AI-ge
 
 ---
 
-**Made with ❤️ for better communication**
-
-*Version 2.0.3 - Manual Activation Mode*
